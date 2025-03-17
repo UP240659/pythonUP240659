@@ -1,5 +1,4 @@
-#1
-
+#Exercise 1
 listavacia = []
 
 #2
@@ -55,7 +54,7 @@ print(it_companies)
 
 #13
 
-it_companies[1] = it_companies[1].upper()  # Convertimos Google a mayúsculas
+it_companies[1] = it_companies[1].upper()  
 print(it_companies)
 
 #14
