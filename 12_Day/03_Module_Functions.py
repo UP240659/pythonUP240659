@@ -15,8 +15,9 @@ print('Lista aleatoria:', mezclar_lista(valores))
 def numero_aleatorio():
     lst_numero_aleatorio = set()
     while len(lst_numero_aleatorio) < 7:
-        numero_aleatorio = random.choice('123456789')
+        numero_aleatorio = random.randint(1, 9)  # Usar randint para generar números enteros entre 1 y 9
         lst_numero_aleatorio.add(numero_aleatorio)
     return list(lst_numero_aleatorio)
 
 print(numero_aleatorio())
+
